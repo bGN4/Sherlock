@@ -1,0 +1,13 @@
+{
+    "home_url": "https://weibo.cn/",
+    "idinfo_url": "https://weibo.cn/%s/info",
+    "export_url": "https://weibo.cn/account/privacy/blocking/?st=abcdef&page=%d",
+    "import_url": "https://weibo.cn/attention/addb?act=addbc&uid=%s&rl=0&st=abcdef",
+    "remove_url": "https://weibo.cn/attention/delb?rl=0&act=delbc&uid=%s&st=abcdef",
+    "coment_url": "https://weibo.cn/comment/%s?page=%d",
+    "export_api": "https://weibo.com/ajax/setting/getFilteredUsers?page=%d",
+    "headers": {
+        "User-Agent": "",
+        "Cookie": ""
+    }
+}
