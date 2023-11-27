@@ -1,0 +1,17 @@
+# name: 'Azure WebApp'
+
+on:
+  [push]
+
+env:
+  PYTHON_VERSION: '3.6'
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install dependencies
+      run: |
+        echo "Hello World!"
+        set | grep GITHUB_ | grep -v GITHUB_TOKEN
